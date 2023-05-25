@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from .models import Recipe, Category
-from django.db.models import Count
 
 
 def main(request):
