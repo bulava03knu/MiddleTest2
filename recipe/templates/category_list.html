@@ -4,7 +4,7 @@
 {% block content %}
   <h1>Category List</h1>
     {% for category in categories %}
-      <li>{{ category.name }}    Count: {{ category.recipe_count }}</li>
+      <li>{{ category.name }}     Count: {{ category.recipe_count }}</li>
     {% empty %}
       <li>No categories found.</li>
     {% endfor %}
